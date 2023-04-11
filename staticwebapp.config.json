@@ -87,6 +87,12 @@
       "allowedRoles": ["admin", "editor", "readonly", "reader"]
     }
   ],
+  "networking": {
+	"allowedIpRanges": [
+	"3.223.170.200/32",
+	"34.203.85.169/32"
+	]
+	},
   "navigationFallback": {
     "rewrite": "index.html",
     "exclude": ["/static/*.{png,jpg,gif}", "/css/*"]
